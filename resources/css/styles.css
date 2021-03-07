@@ -1,11 +1,111 @@
 body {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: black;
+    margin-bottom: 5em;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
+
 footer {
   display: block;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  font-size: 10pt;
+  font-weight: bold;
+}
+.crayon_logo
+{
+  width: 240px;
+}
+
+#navigation {
+    height: 48px;
+    font-size: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: medium;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+    margin: 0;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+  background-color: yellow;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#navigation li.right {
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.FAQ{
+  margin: 0 auto;
+  width:50%;
+
+}
+#FAQ li{
+  text-align: left;
+  font-weight: normal;
+}
+
+/* GRID VIEW */
+.Features{
+  margin: 0 auto;
+  width:60%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
 }
