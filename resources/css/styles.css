@@ -89,7 +89,9 @@ a:hover {
 /* GRID VIEW */
 .Features{
   margin: 0 auto;
-  width:60%;
+  width:900px;
+  padding-left: 100;
+  padding-right: 100;
 }
 
 .row {
@@ -109,6 +111,19 @@ a:hover {
   width: 260px;
   height: 260px;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Features{
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  .column img {
+    width: 160px;
+    height: 160px;
+
+  }
 }
 
 .button {
