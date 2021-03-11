@@ -65,7 +65,7 @@ a {
 }
 
 a:hover {
-  background-color: yellow;
+  background-color: #ffe800;
   text-decoration: underline;
   cursor: pointer;
 }
