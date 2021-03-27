@@ -6,7 +6,6 @@ body {
     background-color: #ffffff;
     color: black;
     margin-bottom: 5em;
-    font-family: 'DotGothic16', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -17,7 +16,7 @@ footer {
   width: 100%;
   text-align: center;
   font-size: 10pt;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .centered {
@@ -35,7 +34,7 @@ footer {
     border-bottom-style: solid;
     border-bottom-color: black;
     border-width: medium;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .container{
@@ -103,7 +102,7 @@ a:hover {
 .tg td{border: none;
   overflow:hidden; padding: 4px 10px;word-break:normal;vertical-align:top}
 .tg .tg-light{text-align:left;}
-.tg .tg-bold{font-weight:bold;text-align:right;}
+.tg .tg-bold{font-weight:700;text-align:right;}
 
 .Quickstart{
   margin: 0 auto;
@@ -122,7 +121,7 @@ a:hover {
 
 #Quickstart a {
     color: blue;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 
